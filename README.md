@@ -28,3 +28,6 @@ https://launchpad.net/ubuntu/+source/busybox/1:1.21.0-1ubuntu1
 （完成后生成可执行的busybox文件）
 
 ## 所需的系统调用及库函数
+### 系统调用
+write，read，open，close，lseek，exit，execve，sbrk，opendir，readdir，closedir，fstat，stat，signal，mmap，munmap
+### 库函数
