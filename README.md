@@ -35,5 +35,5 @@ write，read，open，close，lseek，exit，execve，sbrk，opendir，readdir�
 这里仅列出newlib不支持的库函数，这些库函数我暂时使用本地的实现。  
 这些库函数有如下几类：  
 > 1. 与terminal相关的接口：tcgetattr()，tcsetattr()，ioctl()  
-> 2. 与正则表达式相关：regcomp()，regexec()，re_compile_pattern()，re_search()  
+> 2. 与正则表达式相关：regcomp()，regexec()，regerror()，regfree()，re_compile_pattern()，re_search()，re_match()，re_exec()
 > 3. 其他：sigsetjmp()，siglongjmp()，getenv()，getopt()，writev()    
