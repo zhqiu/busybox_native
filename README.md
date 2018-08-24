@@ -20,7 +20,7 @@ https://launchpad.net/ubuntu/+source/busybox/1:1.21.0-1ubuntu1
 
 ## Busybox的配置与编译
 虽然这里只有8个程序，但可以通过配置编译脚本的方式支持更多的程序，具体方法：  
-1. make distclean
+1. make distclean  
 （清除配置文件及可执行文件）
 2. make nemuconfig  
 （这里会出现图形化的配置界面，可以在此勾选想要的程序，完成后可自动生成配置文件）
