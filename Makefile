@@ -1,3 +1,6 @@
+INCLUDES = -Ilibc/include -Ilibc/include/machine -Ilibc/include/sys -Imyterm -Imyregex
+LIBS = -lc-native-newlib -lmyregex -lothers -los-native-newlib -lmyterm
+
 VERSION = 1
 PATCHLEVEL = 21
 SUBLEVEL = 0
