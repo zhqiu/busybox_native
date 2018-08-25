@@ -20,6 +20,7 @@ https://launchpad.net/ubuntu/+source/busybox/1:1.21.0-1ubuntu1
 > wc（coreutils）  
 
 ## Busybox的配置与编译
+0. clone navy_apps 并设置环境变量NAVY_APPS
 虽然这里只有8个程序，但可以通过配置编译脚本的方式支持更多的程序，具体方法：  
 1. make distclean  
 （清除配置文件及可执行文件）
